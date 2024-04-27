@@ -61,25 +61,26 @@ main {
 }
   
 figcaption {
-    text-align: center;
-    font-size: small;
-    font-style: italic;
+  text-align: center;
+  font-size: small;
+  font-style: italic;
 }
   
+
 footer {
-    background-color: rgb(145, 23, 23);
-    text-align: center;
-    font-size: medium;
-   
+  background-color: rgb(145, 23, 23);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
 }
-  
+
 footer p:first-of-type {
-    padding-top: 15px;
-    color: white;
+  color: white;
 }
-  
+
 footer p:last-of-type {
-  padding-bottom: 15px;
   color: yellow;
 }
 
