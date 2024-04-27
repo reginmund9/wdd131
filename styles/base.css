@@ -76,13 +76,7 @@ footer {
   max-width: 900px;
 }
 
-footer p:first-of-type {
-  color: white;
-}
 
-footer p:last-of-type {
-  color: yellow;
-}
 
 /* Class Selectors and IDs */
   
