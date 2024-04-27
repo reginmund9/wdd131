@@ -1,15 +1,15 @@
 * {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
   
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
-    display: grid;
-    grid-template-rows: 2fr 1fr;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
     
 }
   
@@ -33,31 +33,31 @@ header nav {
 
   
 nav a {
-    justify-content: space-around;
-    padding: 10px 0 10px 0;
-    text-decoration: none;
-    font-size: medium;
-    color: white;
+  justify-content: space-around;
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+  font-size: medium;
+  color: white;
 }
   
 nav a:hover {
-    color: rgb(145, 23, 23);
-    font-size: larger;
-    font-weight: bolder;
-    padding-bottom: 0;
+  color: rgb(145, 23, 23);
+  font-size: larger;
+  font-weight: bolder;
+  padding-bottom: 0;
 }
   
 nav a:active {
-    color: rgb(255, 230, 6);
+  color: rgb(255, 230, 6);
 }
   
 main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    max-width: 900px;
-    margin: 0 auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
   
 figcaption {
@@ -74,6 +74,9 @@ footer {
   text-align: center;
   margin: 0 auto;
   max-width: 900px;
+}
+#last-modified {
+  color: yellow;
 }
 
 
@@ -128,3 +131,4 @@ footer {
 .card ul {
   padding: 30px;
 }
+
