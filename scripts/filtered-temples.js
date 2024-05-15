@@ -57,6 +57,22 @@ document.addEventListener("DOMContentLoaded", function () {
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
+    {
+      templeName: "Brigham",
+      location: "Brigham City, Utah, United States",
+      dedicated: "2012, September, 23",
+      area: 36000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/400x250/brigham-city-temple-lds-1027480-wallpaper.jpg"
+    },
+    {
+      templeName: "Atsubetsu-ku",
+      location: "Sapporo, Hokkaido, Japan",
+      dedicated: "2016, August, 21",
+      area: 48480,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sapporo-japan/400x250/sapporo-japan-exterior-night-1945721.jpg"
+    },
     // Add more temple objects here...
   ];
 
