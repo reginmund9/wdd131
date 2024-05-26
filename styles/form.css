@@ -1,0 +1,123 @@
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    grid-column: 2/3;
+    background-color: rgb(145, 23, 23);
+    color: white;
+    
+}
+
+.reviewPage
+{
+    text-align: left;
+    grid-column: 2/3;
+    max-width: 500px;
+    background-color: rgb(188, 253, 188);
+    padding: 40px 60px 40px 40px;
+}
+
+/* .requiredAtts {
+    color: red;
+} */
+
+input.radioBtn {
+    justify-content: center;
+    margin: 0;
+}
+
+#review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#features input {
+    margin-right: 10px;
+}
+
+#review label {
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.reviewPage input[type="radio"],
+.reviewPage input[type="text"],
+.reviewPage input[type="date"],
+#productName,
+textarea
+{
+    display: block;
+    border-radius: 6px;
+    padding: .5rem;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.reviewPage select {
+    display: block;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+#features label {
+    display: block;
+    padding-top: 10px;
+}
+
+.reviewPage input:required {
+    border-left: solid 8px red;
+}
+
+#written,
+#name,
+#date,
+#rating,
+#features
+{
+    padding-top: 20px;
+    max-width: 450px;
+}
+
+#submitBtn {
+    width: 90%;
+    padding: .8rem;
+    font-size: 1.25rem;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 7% 1rem 7%;
+    background-color: #ffff00;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    grid-column: 2/3;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(145, 23, 23);
+    color: white;
+    margin: 0 auto;
+    max-width: 450px;
+}
+#last-modified {
+    color: yellow;
+}
+
